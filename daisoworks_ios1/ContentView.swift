@@ -13,25 +13,6 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            HStack {
-                Text("안녕하세요\n0000입니다.")
-                    .bold(true)
-                    .font(.system(size: 25))
-                     .multilineTextAlignment(.leading)
-                     .padding(.bottom, 10)
-                
-                Spacer()
-            }.frame(width: 280)
-            
-            HStack {
-                Text("회원 서비스 이용을 위해 로그인 해주세요.")
-                        .bold(true)
-                        .font(.system(size: 16))
-                        .multilineTextAlignment(.leading)
-                        .padding(.bottom, 20)
-                
-                Spacer()
-            }.frame(width: 280)
             
             // 이메일 입력
             TextField(
